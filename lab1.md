@@ -7,7 +7,7 @@ MASM.EXE TTTT.ASM
 LINK.EXE TTTT.OBJ
 ```
 
-其中，编译时可选生成 `TTTT.LST` (机器码和汇编指令对照)，链接时可选生成 `TTTT.MAP` (内存段布局)。
+其中，编译时可使用 `-l` 参数生成 `TTTT.LST` (机器码和汇编指令对照)，链接时可选生成 `TTTT.MAP` (内存段布局)。
 
 ## Debug
 
@@ -101,7 +101,7 @@ LINK.EXE TTTT.OBJ
 该指令在 `TTTT.ASM` 的第 40 行，`0790:002C` 地址处。（阅读 `TTTT.LST`）
 
 ```
-- r IP
+-r IP
 IP 000D
 :002C
 ```
