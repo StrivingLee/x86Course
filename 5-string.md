@@ -126,7 +126,7 @@
       SUB   AL, 20H             ; 小写变大写
 
       CONTINUE:
-      STOSB                     ; ES:[DI] <- AL, SI--
+      STOSB                     ; ES:[DI] <- AL, SI++
       LOOP  LP1
 
       POP   ES
