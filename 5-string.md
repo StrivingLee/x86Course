@@ -136,7 +136,7 @@
     ```c
     int CX = LEN;
     char *SI = BUFF1, *DI = *SI;
-    while (cx--) {
+    while (CX--) {
         char AL = *SI;
         if (AL >= 'a' && AL <= 'z')
             AL -= 0x20;
